@@ -9,9 +9,7 @@ export default function Hello() {
 
       {/* Funny cat image */}
       <Image
-        source={{
-          uri: "https://cataas.com/cat",
-        }}
+        source={require("../assets/images/laughing-cat.gif")}
         style={styles.cat}
       />
     </View>
